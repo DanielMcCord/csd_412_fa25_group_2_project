@@ -31,6 +31,8 @@ services:
       DB_USER: postgres
       DB_PASSWORD: postgres
       JWT_SECRET: changeme
+      AUTO_SYNC_ON_DEV: "1"
+      SEED_ON_START: "1"
     ports:
       - "3000:3000"
 
