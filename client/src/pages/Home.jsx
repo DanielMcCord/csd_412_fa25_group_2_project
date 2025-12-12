@@ -1,3 +1,4 @@
+import MapPanel from "../components/MapPanel";
 import "../styles/home.css";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
 
       <main className="psrf__layout">
         <section className="psrf__map">
-          <div className="psrf__mapPlaceholder">Map goes here</div>
+        <MapPanel />
         </section>
 
         <aside className="psrf__sidebar">
